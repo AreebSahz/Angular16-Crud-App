@@ -1,0 +1,68 @@
+{
+  "userList": [
+    {
+      "name": "Salman Agha",
+      "contact": "(954) 941-9229",
+      "address": "7111 SW 16th St Hollywood, Florida(FL), 33023",
+      "id": 2
+    },
+    {
+      "name": "Kamram Ghulam",
+      "contact": "(907) 222-1216",
+      "address": "1281 E 19th Ave #APT A101 Anchorage, Alaska(AK), 99501",
+      "id": 3
+    },
+    {
+      "name": "Abdul Hadi",
+      "contact": "(205) 685-9771",
+      "address": "907 Mission Hills Rd Alabaster, Alabama(AL), 35007",
+      "id": 4
+    },
+    {
+      "name": "Ali Rehman",
+      "contact": "(870) 533-4071",
+      "address": "507 Thomas St Stamps, Arkansas(AR), 71860",
+      "id": 5
+    },
+    {
+      "name": "Hamza Qadir",
+      "contact": "(518) 885-8060",
+      "address": "405 Robert Dr Ballston Spa, New York(NY), 12020",
+      "id": 8
+    },
+    {
+      "name": "Rehan Malik",
+      "contact": "(763) 200-4245",
+      "address": "8507, Quinn Avenue South, Minnesota(MN), 55437",
+      "id": 9
+    },
+    {
+      "name": "Amad Butt",
+      "contact": "(313) 674-9645",
+      "address": "17795, West 7 Mile Road, Michigan(MI), 48235",
+      "id": 10
+    },
+    {
+      "name": "Muhammad Haris",
+      "contact": "(505) 492-1608",
+      "address": "5066, Lang Avenue Northeast, New Mexico(NM), 87109",
+      "id": 11
+    },
+    {
+      "name": "Afaq Ahmed",
+      "contact": "(416) 458-7535",
+      "address": "925 Merton Street  Toronto, Ontario(ON), M1L 3K7",
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

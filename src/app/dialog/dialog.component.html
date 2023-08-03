@@ -1,0 +1,32 @@
+<h1 mat-dialog-title>{{ dialogTitle }}</h1>
+<div mat-dialog-content>
+  <form [formGroup]="userForm" style="margin-top: 1rem;">
+    <mat-form-field appearance="outline">
+      <mat-label>Full Name</mat-label>
+      <input formControlName="name" matInput placeholder="Enter full name" />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Contact</mat-label>
+      <input
+        formControlName="contact"
+        matInput
+        placeholder="Enter contact number"
+      />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Address</mat-label>
+      <input formControlName="address" matInput placeholder="Enter address" />
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+  <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+  <button
+    style="margin: 1rem"
+    mat-raised-button
+    color="primary"
+    (click)="addUser()"
+  >
+    {{ actionBtn }}
+  </button>
+</div>
